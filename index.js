@@ -50,4 +50,7 @@ $(document).ready(function(){
         }
     }
     });
+    setTimeout(function(){
+    	$('#preloader').fadeToggle();
+    });
 });

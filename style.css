@@ -82,6 +82,13 @@ ul{
 	opacity: 1;
 	pointer-events: auto;
 }
+#preloader{
+	height: 100vh;
+	width: 100%;
+	background: #fff url('images/load.gif') no-repeat center center;
+	position: fixed;
+	z-index: 99999;
+}
 
 /* ************ navbar styling ************ */
 .navbar{
