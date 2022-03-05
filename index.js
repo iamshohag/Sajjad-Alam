@@ -52,5 +52,5 @@ $(document).ready(function(){
     });
     setTimeout(function(){
     	$('#preloader').fadeToggle();
-    }),3000;
+    }),1500;
 });
