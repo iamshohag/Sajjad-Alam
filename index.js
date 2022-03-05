@@ -1,3 +1,9 @@
+	// setTimeout(function(){
+    // 	$('#preloader').fadeToggle();
+    // }),1500;	
+	$(window).on("load",function(){
+		$('#preloader').fadeOut();
+	});
 $(document).ready(function(){
 	$(window).scroll(function(){
 		if(this.scrollY > 20){
@@ -50,10 +56,5 @@ $(document).ready(function(){
         }
     }
     });
-    // setTimeout(function(){
-    // 	$('#preloader').fadeToggle();
-    // }),1500;
-    $(window).on("load",function(){
-    	$('#preloader').fadeOut();
-    })
+    
 });
