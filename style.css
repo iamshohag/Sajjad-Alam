@@ -439,3 +439,21 @@ ul{
 		color: #fff!important;
 	}
 }
+
+/* Counter section */
+.counter-container .fa-facebook{
+	color: 	#4267B2;
+	margin-bottom: 40px;
+}
+.counter-container .fa-youtube{
+	color: 	#FF0000;
+	margin-bottom: 40px;
+}
+.counter-container .fa-twitter{
+	color: 	#1DA1F2;
+	margin-bottom: 40px;
+}
+.counter{
+	font-size: 50px;
+	margin-bottom: 20px!important;
+}
